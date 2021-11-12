@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './Section.css';
 import SuggestionItemWrapper from "../Wrappers/SuggestionItemWrapper/SuggestionItemWrapper";
 import ScrollContainer from 'react-indiana-drag-scroll';
-import {BeatLoader, ClipLoader} from "react-spinners";
+import {BeatLoader} from "react-spinners";
 
 const Section = () => {
     const [suggestionItems, setSuggestionItems] = useState([]);
