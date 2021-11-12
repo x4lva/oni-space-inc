@@ -10,13 +10,10 @@
         visibility: hidden;
         transform: translate(0, 100px);
     }
-    50% {
-        opacity: 0.5;
-    }
     100% {
         opacity: 1;
         visibility: visible;
-        transform: translate(0px, 0);
+        transform: translate(0, 0);
     }
 }
 
@@ -26,12 +23,9 @@
         visibility: hidden;
         transform: translate(100px, 0);
     }
-    50% {
-        opacity: 0.5;
-    }
     100% {
         opacity: 1;
         visibility: visible;
-        transform: translate(0px, 0);
+        transform: translate(0, 0);
     }
 }

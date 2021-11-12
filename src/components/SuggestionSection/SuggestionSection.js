@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import './Section.css';
-import SuggestionItemWrapper from "../Wrappers/SuggestionItemWrapper/SuggestionItemWrapper";
+import './SuggestionSection.css';
+import SuggestionItemWrapper from '../Wrappers/SuggestionItemWrapper/SuggestionItemWrapper';
 import ScrollContainer from 'react-indiana-drag-scroll';
 import {BeatLoader} from "react-spinners";
 
-const Section = () => {
+const SuggestionSection = () => {
     const [suggestionItems, setSuggestionItems] = useState([]);
     const [suggestionItemsLoading, setSuggestionItemsLoading] = useState(true);
 
@@ -49,6 +49,7 @@ const Section = () => {
                 <ScrollContainer vertical={false}
                                  horizontal={true}
                                  stopPropagation={true} className="suggestions-items">
+
                     {suggestionItemsLoading ? (
                         <div className={"loading"}>
                             <BeatLoader color={"#A8272D"} loading={suggestionItemsLoading} size={20} />
@@ -59,10 +60,11 @@ const Section = () => {
                                                           price={el.price} img={el.img}/>
                         })
                     )}
+
                 </ScrollContainer>
             </div>
         </section>
     );
 };
 
-export default Section;
+export default SuggestionSection;

@@ -4,11 +4,13 @@
     min-width: 380px;
     max-width: 380px;
 }
+
 .suggestion-item-action-container {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
+
 .suggestion-item-action {
     background-color: #A8272D;
     transition: .3s;
@@ -16,9 +18,10 @@
     padding: 10px 20px;
     border-radius: 20px;
     text-transform: uppercase;
-    box-shadow: rgb(12 10 10 / 25%) 0 2px 3px;
+    box-shadow: rgba(12 10 10, 0.25) 0 2px 3px;
     font-size: 15px;
 }
+
 .suggestion-item-action:hover {
     background-color: #8F2B2B;
     cursor: pointer;

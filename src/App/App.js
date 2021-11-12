@@ -1,11 +1,9 @@
 import './App.css';
-import Section from "../components/Section/Section";
+import SuggestionSection from '../components/SuggestionSection/SuggestionSection';
 
 function App() {
     return (
-        <div className="App">
-            <Section />
-        </div>
+        <SuggestionSection />
     );
 }
 

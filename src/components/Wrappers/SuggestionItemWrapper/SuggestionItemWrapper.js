@@ -1,6 +1,6 @@
 import React from 'react';
 import SuggestionItem from '../../SuggestionItem/SuggestionItem';
-import './SuggestionItemWrapper.css'
+import './SuggestionItemWrapper.css';
 
 const SuggestionItemWrapper = (props) => {
     return (
