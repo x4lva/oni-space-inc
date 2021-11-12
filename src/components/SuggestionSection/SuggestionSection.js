@@ -43,7 +43,7 @@ const SuggestionSection = () => {
                              alt="joyup robo head"/>
                     </div>
                     <div className="suggestions-message-content">
-                        HI, Our Chef thinks you may like items based on <br/> your current selection
+                        <p>HI, Our Chef thinks you may like items based on <br/> your current selection</p>
                     </div>
                 </div>
                 <ScrollContainer vertical={false}

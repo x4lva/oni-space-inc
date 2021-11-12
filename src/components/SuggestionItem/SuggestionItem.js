@@ -8,13 +8,13 @@ const SuggestionItem = ({name, description, img, price}) => {
             </div>
             <div className="suggestion-item-content">
                 <div className="suggestion-item-content-name">
-                    {name}
+                    <span>{name}</span>
                 </div>
                 <div className="suggestion-item-content-description">
-                    {description}
+                    <p>{description}</p>
                 </div>
                 <div className="suggestion-item-content-price">
-                    ${price}
+                    <span>${price}</span>
                 </div>
             </div>
         </div>

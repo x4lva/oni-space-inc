@@ -7,7 +7,9 @@ const SuggestionItemWrapper = (props) => {
         <div className="suggestion-item-container">
             <SuggestionItem {...props} />
             <div className="suggestion-item-action-container">
-                <div className="suggestion-item-action" onClick={() => alert(props.name)}>Add Item</div>
+                <div className="suggestion-item-action" onClick={() => alert(props.name)}>
+                    Add Item
+                </div>
             </div>
         </div>
     );

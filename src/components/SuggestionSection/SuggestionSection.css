@@ -57,6 +57,11 @@
     width: 100%;
 }
 
+.suggestion-item-container {
+    min-width: 380px;
+    max-width: 380px;
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 850px;
@@ -73,6 +78,11 @@
     .container {
         width: 400px;
     }
+
+    .suggestion-item-container {
+        min-width: 300px;
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -84,5 +94,10 @@
 @media (max-width: 350px) {
     .container {
         width: 250px;
+    }
+
+    .suggestion-item-container {
+        min-width: 210px;
+        max-width: 210px;
     }
 }

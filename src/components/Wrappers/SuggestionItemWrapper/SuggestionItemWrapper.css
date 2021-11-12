@@ -1,8 +1,7 @@
 .suggestion-item-container {
     display: flex;
     flex-direction: column;
-    min-width: 380px;
-    max-width: 380px;
+    animation: bounceUp .5s;
 }
 
 .suggestion-item-action-container {
