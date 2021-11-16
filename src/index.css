@@ -29,3 +29,11 @@
         transform: translate(0, 0);
     }
 }
+
+.d-none {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}

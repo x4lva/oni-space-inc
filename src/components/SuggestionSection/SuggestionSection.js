@@ -4,7 +4,7 @@ import SuggestionItemWrapper from '../Wrappers/SuggestionItemWrapper/SuggestionI
 import ScrollContainer from 'react-indiana-drag-scroll';
 import {BeatLoader} from "react-spinners";
 
-const SuggestionSection = () => {
+const SuggestionSection = ({onHide}) => {
     const [suggestionItems, setSuggestionItems] = useState([]);
     const [suggestionItemsLoading, setSuggestionItemsLoading] = useState(true);
 
@@ -37,6 +37,11 @@ const SuggestionSection = () => {
     return (
         <section className={"suggestions"}>
             <div className="container">
+                <div className="suggestions-hide" onClick={onHide}>
+                    <div className="suggestions-hide-out">
+                        <div className="suggestions-hide-in" />
+                    </div>
+                </div>
                 <div className="suggestions-message">
                     <div className="suggestions-message-icon">
                         <img src="http://res.cloudinary.com/joyup/image/upload/v1618337516/pj1wugzi1au9kwgj4fdb.jpg"

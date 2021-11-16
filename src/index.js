@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import SuggestionSection from './components/SuggestionSection/SuggestionSection';
+import App from "./app/App";
 
 ReactDOM.render(
     <React.StrictMode>
-        <SuggestionSection/>
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
 );

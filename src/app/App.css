@@ -1,0 +1,16 @@
+.section-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.section-show span {
+    display: flex;
+    padding: 10px 15px;
+    background-color: #1868FB;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.section-show span:hover {
+    cursor: pointer;
+}

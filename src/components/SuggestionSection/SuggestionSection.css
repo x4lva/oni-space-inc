@@ -1,6 +1,7 @@
 .container {
     width: 1200px;
     padding: 15px 0;
+    position: relative;
 }
 
 .suggestions {
@@ -10,6 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: bounceUp 0.4s;
 }
 
 .suggestions-message {
@@ -27,7 +33,7 @@
     color: #ffffff;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
     animation: bounceUp 0.8s;
-    animation-delay: 0.7s;
+    animation-delay: 0.8s;
     visibility: hidden;
     animation-fill-mode:forwards;
 }
@@ -60,6 +66,34 @@
 .suggestion-item-container {
     min-width: 380px;
     max-width: 380px;
+}
+
+.suggestions-hide {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.suggestions-hide:hover {
+    cursor: pointer;
+}
+
+.suggestions-hide-out {
+    height: 40px;
+    width: 2px;
+    background-color: #ccc;
+    transform: rotate(45deg);
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.suggestions-hide-in {
+    height: 40px;
+    width: 2px;
+    background-color:  #ccc;
+    transform: rotate(90deg);
+    z-index: 2;
 }
 
 @media (max-width: 1200px) {
