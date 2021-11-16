@@ -1,6 +1,6 @@
 .container {
     width: 1200px;
-    padding: 15px 0;
+    padding: 70px 0;
     position: relative;
 }
 
@@ -70,9 +70,10 @@
 
 .suggestions-hide {
     position: absolute;
-    right: 0;
+    right: 20px;
     width: 40px;
     height: 40px;
+    top: 20px;
 }
 
 .suggestions-hide:hover {

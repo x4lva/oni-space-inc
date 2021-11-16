@@ -36,12 +36,12 @@ const SuggestionSection = ({onHide}) => {
 
     return (
         <section className={"suggestions"}>
-            <div className="container">
-                <div className="suggestions-hide" onClick={onHide}>
-                    <div className="suggestions-hide-out">
-                        <div className="suggestions-hide-in" />
-                    </div>
+            <div className="suggestions-hide" onClick={onHide}>
+                <div className="suggestions-hide-out">
+                    <div className="suggestions-hide-in" />
                 </div>
+            </div>
+            <div className="container">
                 <div className="suggestions-message">
                     <div className="suggestions-message-icon">
                         <img src="http://res.cloudinary.com/joyup/image/upload/v1618337516/pj1wugzi1au9kwgj4fdb.jpg"
